@@ -15,8 +15,8 @@ This repository contains my solutions to various DSA problems, primarily followi
 ### 1. Arrays & Hashing
 
 - [x] Contains Duplicate
-<!-- - [x] Valid Anagram
-- [x] Two Sum
+- [x] Valid Anagram
+<!-- - [x] Two Sum
 - [ ] Group Anagrams
 - [ ] Top K Frequent Elements -->
 
