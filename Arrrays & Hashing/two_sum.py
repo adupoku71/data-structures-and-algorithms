@@ -18,6 +18,17 @@ Output: [0,1]
 def two_sum_brute_force(nums, target):
         n = len(nums)
         for i in range(n):
-            for j in range(1, n):
+            for j in range(i+1, n):
                 if nums[i] + nums[j] == target:
                     return [i, j]
+                
+# Time: O(n) Space: O(n)
+def two_sum_optimized(nums, target: int):
+        nums_store = {}
+
+        for index, number in enumerate(nums):
+            diff = target - number
+            if diff in nums_store:
+                return [nums_store[diff], index]
+            nums_store[number] = index
+        
