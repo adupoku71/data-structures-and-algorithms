@@ -16,9 +16,9 @@ This repository contains my solutions to various DSA problems, primarily followi
 
 - [x] Contains Duplicate
 - [x] Valid Anagram
-<!-- - [x] Two Sum
-- [ ] Group Anagrams
-- [ ] Top K Frequent Elements -->
+- [x] Two Sum
+  <!-- - [ ] Group Anagrams -->
+  <!-- - [ ] Top K Frequent Elements -->
 
 <!-- ### 2. Two Pointers
 
