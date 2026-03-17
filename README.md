@@ -20,10 +20,10 @@ This repository contains my solutions to various DSA problems, primarily followi
 - [x] Top K Frequent Elements
 <!-- - [ ] Group Anagrams -->
 
-<!-- ### 2. Two Pointers
+### 2. Two Pointers
 
 - [x] Valid Palindrome
-- [ ] Two Sum II
+<!-- - [ ] Two Sum II
 - [ ] 3Sum
 - [ ] Container With Most Water
 - [ ] Trapping Rain Water -->
