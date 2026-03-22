@@ -18,6 +18,7 @@ This repository contains my solutions to various DSA problems, primarily followi
 - [x] Valid Anagram
 - [x] Two Sum
 - [x] Top K Frequent Elements
+- [x] Product of Array Except Self
 <!-- - [ ] Group Anagrams -->
 
 ### 2. Two Pointers
