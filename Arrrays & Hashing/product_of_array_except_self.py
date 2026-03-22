@@ -41,16 +41,32 @@ class Solution:
 
         prod_pre = 1
         prod_post = 1
+        output = [0] * n
         for i in range(n):
             prod_pre *= nums[i]
             prod_post *= nums[n-1-i]
             prefix[i] = prod_pre
             postfix[n-i-1] = prod_post
 
-        output = [0] * n
         for j in range(n):
             pre = 1 if j == 0 else prefix[j-1]
             post = 1 if j == n - 1 else postfix[j + 1]
             output[j] = pre * post
+        return output
+    
+    # Time: O(n) Space: O(n) for output array
+    def productExceptSelfPrefixPostfixOptimized(self, nums):
+        n = len(nums)
+        output = [0] * n
+
+        pre = 1
+        for i in range(n):
+            output[i] = pre
+            pre *= nums[i]
+        post = 1
+        for j in range(n-1, 0, -1):
+            post *= nums[j]
+            output[j-1] *= post
+
         return output
         
